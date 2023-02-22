@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Mídias em HTML5</h1>
+    <h2>Imagens Dinâmicas</h2>
+    <p>Tente abrir esse site em dispositivos diferentes ou aumente e diminua o tamanho do navegador.</p>
+    <picture> <!--Um container que pode conter vários elementos source oara um elemento img específico.-->
+        <source media="(max-width: 710px )" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1010px)" srcset="imgs/foto-m.png" type="image/png">
+        <img src="imgs/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h2>Reprodução de áudio</h2>
+    <p>Aprendendo a como colocar áudio no site.</p>
+    <!--Forma 01 para colocar áudio no nosso site. Porém o parâmetro "autoplay" pode não funcionar dependendo do navegador, por causa do formato do áudio. no Opera esse parâmetro funciona.-->
+    <audio src="midia/happy-mistake.mp3"controls></audio>
+    <!--Formatos mais utilizados: MP3, WAV & OGG. Uma forma mais adequada para colocar áudio:-->
+    <audio preload="metadata" controls loop> 
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3"> Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    
+
+
+
+
+
+    
+</body>
+</html>

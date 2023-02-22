@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px black;
+        }
+        nav a{
+            text-decoration: none;
+            font-weight: 500;
+            margin-right: 25px;
+            color: black;
+        }
+        main{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            min-width: 400px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        article{
+            background-color: lightslategray;
+            padding: 6px;
+            margin: 6px;
+            border-radius: 12px;
+        }
+        article h2, p{
+            padding: 10px;
+        }
+        article>aside{
+            background-color: azure;
+            text-align: right;
+            padding: 6px;
+            margin: -6px;
+            border-radius: 0px 0px 10px 10px;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Última Hora</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minus alias, odio optio reiciendis voluptates ipsam. Facilis recusandae, magni modi error eius impedit exercitationem provident fuga id corporis molestias consequuntur.</p>
+            </article>
+            <article id="noticias">
+                <h2>Notícias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias odit delectus aspernatur, reprehenderit provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fugit dolorum rem consequatur cupiditate ullam vitae veniam incidunt voluptatibus molestias in aliquid officiis unde, quibusdam sit dolorem cum est ipsum.</p>
+                <aside>Escrito por J.Paim</aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo.</p>
+    </footer>
+</body>
+</html>

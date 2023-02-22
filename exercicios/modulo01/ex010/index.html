@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Sobre Links</h1>
+    <h2>Usando links externos</h2> 
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io">repositório público no Github</a> do Gustavo Guanabara</p>
+    <!--Para links externos, recomenda-se usar a atributo target(destino) e rel(relativo à)-->
+    <p>Você também acessar o <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external" >Canal do Youtube</a> do Curso em Vídeo</p>
+
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site, se quiser, pode acessar a <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <p>Você pode acessar também nosso site de <a href="noticias/pag003.html">Notícias</a></p>
+
+    <h2>Links para Download</h2>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar livro em PDF</a></li> <!--Nem todos os browsers suportam o  atributo download-->
+        <li><a href="livro/meulivro.zip" type="application/zip" download="meulivro.zip">Baixar livro compactado em ZIP</a></li> <!--Pesquisar sobre media types-->
+    </ul>
+
+
+    
+</body>
+</html>

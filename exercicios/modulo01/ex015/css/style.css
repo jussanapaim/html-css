@@ -1,0 +1,19 @@
+ /* Caso dê erro de compatibilidade, usar a regra abaixo. */
+ @charset "UTF-8";
+/* Todas as regras ficam no Início do Css, e precedem com um "@"*/
+body{
+    
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+    background-color: chartreuse;
+}
+h2{
+    color: brown;
+}
+p{
+    text-align: justify;
+}

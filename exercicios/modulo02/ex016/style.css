@@ -1,0 +1,35 @@
+/* PALETAS */
+/*#30626F #59A4BE #DE8836 #6F1812 #BC0905*/
+
+
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, #30626f, #59A4BE);
+    background-attachment: fixed;
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 2px;
+    box-shadow: 4px 4px 15px rgba(20, 64, 75, 0.493);
+}
+p{
+    text-align: justify;
+}
+
+h1{
+    color: #DE8836;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.592);
+    text-align: center
+
+}
+
+h2{
+    color: #DE8836;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.592);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos</h1>
+    <h2>Hospedagem Local</h2>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video controls poster="imgs/limoes-capa.png" width="560" loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não possui compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <!--Da forma mostrada acima, pode consumir bastante trafégo de dados, o que pode e vai pesar no bolso do cliente em questão, além de deixar o site lento, entre outras coisas.-->
+    <h2>Incorporação externa de vídeo</h2>
+    <h3>Youtube</h3>
+    <p>Colocando um vídeo no Youtube. </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/svDAU-AJ4Rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    <!--A vantagem de usar o Youtube é ampliação de visualização de sites, já que o Youtube é do Google e o Google é o maior gerador de busca. A desvantagem é que, caso queria limitar a visualização, não será possível, pois o Youtube não tem essa funcionalidade.-->
+
+    
+</body>
+</html>

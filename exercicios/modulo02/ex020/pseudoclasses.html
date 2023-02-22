@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.ex1{
+            display: inline-block;
+            text-align: center;
+            border: 1px solid black;
+            background-color: #bcbcbc;
+            height: 200px;
+            width: 200px;
+        }
+        div.ex1:hover{
+            background-color: #181ABD;
+        }
+        .surpreso>p{
+            display: none;
+        }
+        .surpreso:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        .surpreso:hover{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Primeiro exemplo</h1>
+<div class="ex1" id="diva">A</div>
+<div class="ex1" id="divb">B</div>
+<div class="ex1" id="divc">C</div>
+
+<h1>Segundo exemplo</h1>
+<p>Passe o mouse sobre o texto abaixo</p>
+<div class="surpreso">
+    Passe o mouse aqui
+    <p>TEXTO ESCONDIDO...</p>
+</div>
+<p>Fim do exemplo</p>
+    
+</body>
+</html>
